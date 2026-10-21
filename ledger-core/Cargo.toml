@@ -1,0 +1,14 @@
+[package]
+name = "ledger-core"
+version = "0.1.0"
+edition = "2024"
+description = "A small double-entry ledger with idempotent transaction handling."
+license = "MIT"
+repository = "https://github.com/janxl/etf-ledger"
+publish = false
+
+[dependencies]
+thiserror = "2.0.21"
+
+[dev-dependencies]
+proptest = "1.12.0"
