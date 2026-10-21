@@ -1,0 +1,7 @@
+# Seeds for failure cases proptest has generated in the past. It is
+# automatically read and these particular cases re-run before any
+# novel cases are generated.
+#
+# It is recommended to check this file in to source control so that
+# everyone who runs the test benefits from these saved cases.
+cc 41b10e13d3902704bc3d10973829965b1634a82d63776433f1d4e970d8a71ed0 # shrinks to postings = [Posting { account: "etf:VWRL", amount: Money(2770592094765614657) }, Posting { account: "etf:VWRL", amount: Money(8231221139855767439) }, Posting { account: "cash", amount: Money(-2770592094765614657) }, Posting { account: "cash", amount: Money(-8231221139855767439) }]
