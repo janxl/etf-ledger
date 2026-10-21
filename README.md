@@ -12,6 +12,8 @@ and requests that are safe to retry.
 
 See [RUST_FEATURES.md](RUST_FEATURES.md) for the Rust features it showcases and why Rust fits this problem.
 
+This is a learning project: I built it step by step while learning Rust, working with an AI coding assistant (Claude Code).
+
 ## Install
 
 1. Install Rust with [rustup](https://rustup.rs) (Linux, macOS, WSL2):
