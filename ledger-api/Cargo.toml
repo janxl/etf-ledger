@@ -1,0 +1,18 @@
+[package]
+name = "ledger-api"
+version = "0.1.0"
+edition = "2024"
+description = "HTTP API for the etf-ledger core, built with axum."
+license = "MIT"
+repository = "https://github.com/janxl/etf-ledger"
+publish = false
+
+[dependencies]
+axum = "0.8.9"
+ledger-core = { version = "0.1.0", path = "../ledger-core" }
+serde = { version = "1.0.229", features = ["derive"] }
+tokio = { version = "1.54.0", features = ["full"] }
+
+[dev-dependencies]
+http-body-util = "0.1.5"
+tower = { version = "0.5.3", features = ["util"] }
